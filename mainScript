@@ -1,1 +1,32 @@
+//Defensive Potion use
+?loc.begin
+  brew stone + tar
+?hp < 30
+  activate potion
 
+//Rocky Plateau
+?loc = rocky
+
+//Deadwood Canyon
+?loc = deadwood
+
+//Caves of Whatever
+?loc = caves
+
+//Mushroom Mushroom
+?loc = mushroom
+
+//Hall of Zombos
+?loc = haunted
+
+//Copper place
+?loc = boiling
+
+//The thing that makes the caves easier
+?loc = icy
+
+//Poision 2: Redundant poison place
+?loc = temple
+
+//Plateau 2: oops, we're here again
+?loc = rocky
