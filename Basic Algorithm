@@ -1,0 +1,12 @@
+Basic Algorithm:
+First, check location to get elemental priority.
+Enemy priority: armored, ranged, swarm, immune to physical, immune to ranged.
+Self priority: Armor, health.
+In an elemental environment, if the player's armor is over 50, give the player the ability to use the dashing shield then switch to elemental B shield or socket shield.
+If player's armor is under 50, switch to elemental A shield.
+If immune to physical, default to magic elemental wand in L slot.
+If player is damaged, default to big vigor lifesteal sword if enemy count over 3, else use vigor lifesteal sword.
+If not immune to physical, default to big elemental sword if not
+If enemy is non-elemental, default to vigor lifesteal weapon depending on enemy count.
+  If enemy not immune to ranged, default to vigor lifesteal crossbow.
+  If enemy immune to ranged, default to big vigor lifesteal sword if enemy count over 3, else use vigor lifesteal sword.
