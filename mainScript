@@ -4,7 +4,7 @@
 ?hp < 30
   activate potion
 
-//Rocky Plateau
+//Rocky Plateau - Coming soon?
 ?loc = rocky
 
 //Deadwood Canyon
@@ -27,6 +27,3 @@
 
 //Poision 2: Redundant poison place
 ?loc = temple
-
-//Plateau 2: oops, we're here again
-?loc = rocky
